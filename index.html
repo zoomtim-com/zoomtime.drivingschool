@@ -51,7 +51,7 @@ Learn Today.<br>
 Drive With Confidence.
 </h1>
 
-<p>
+<p class="sub">
 Professional driving lessons, vehicle registration and driver's licence assistance all in one place.
 </p>
 
@@ -94,30 +94,6 @@ WhatsApp
 <div class="stat-box">
 <h2>100%</h2>
 <p>Customer Satisfaction</p>
-</div>
-
-</section>
-<section class="gallery" id="gallery">
-
-<div class="section-title">
-<p>OUR GALLERY</p>
-<h2>SEE US IN ACTION</h2>
-</div>
-
-<div class="gallery-grid">
-
-<img src="assets/gallery1.jpg" alt="Driving Lesson">
-
-<img src="assets/gallery2.jpg" alt="Student Learning">
-
-<img src="assets/gallery3.jpg" alt="Driving Instructor">
-
-<img src="assets/gallery4.jpg" alt="Driving Test">
-
-<img src="assets/gallery5.jpg" alt="Vehicle Documentation">
-
-<img src="assets/gallery6.jpg" alt="Driving School">
-
 </div>
 
 </section>
@@ -286,7 +262,7 @@ We also assist with driver's licence processing, car registration and other vehi
 <li>✔ Highway Driving</li>
 </ul>
 
-<button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+<button onclick="document.getElementById('enroll').scrollIntoView({behavior:'smooth'})">
 Register
 </button>
 
@@ -307,7 +283,7 @@ Register
 <li>✔ Test Preparation</li>
 </ul>
 
-<button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+<button onclick="document.getElementById('enroll').scrollIntoView({behavior:'smooth'})">
 Register
 </button>
 
@@ -326,7 +302,7 @@ Register
 <li>✔ Driving Certificate</li>
 </ul>
 
-<button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+<button onclick="document.getElementById('enroll').scrollIntoView({behavior:'smooth'})">
 Register
 </button>
 
@@ -335,47 +311,42 @@ Register
 </div>
 
 </section>
-
-<section id="registration" class="registration">
+<section id="enroll" class="enroll">
 
 <div class="section-title">
-<p>VEHICLE SERVICES</p>
-<h2>Car Registration & Documentation</h2>
+<p>ENROLL TODAY</p>
+<h2>Start Your Driving Journey</h2>
 </div>
 
-<div class="service-grid">
+<form id="enrollForm">
 
-<div class="service-card">
-<h3>🚘 New Vehicle Registration</h3>
-<p>Fast processing for newly purchased vehicles.</p>
-</div>
+<input type="text" id="name" placeholder="Full Name" required>
 
-<div class="service-card">
-<h3>🪪 Driver's Licence Processing</h3>
-<p>New applications, renewals and replacements.</p>
-</div>
+<input type="tel" id="phone" placeholder="Phone Number" required>
 
-<div class="service-card">
-<h3>📄 Change of Ownership</h3>
-<p>Complete ownership transfer documentation.</p>
-</div>
+<input type="email" id="email" placeholder="Email Address" required>
 
-<div class="service-card">
-<h3>🔢 Number Plate Processing</h3>
-<p>Assistance with new number plates and related documentation.</p>
-</div>
+<select id="course" required>
+<option value="">Select Training Package</option>
+<option>Two Weeks - ₦60,000</option>
+<option>Three Weeks - ₦70,000</option>
+<option>Four Weeks - ₦80,000</option>
+</select>
 
-<div class="service-card">
-<h3>📋 Vehicle Papers</h3>
-<p>Help with vehicle documents and compliance requirements.</p>
-</div>
+<select id="time" required>
+  <option value="">Preferred Time</option>
+  <option>Morning</option>
+  <option>Afternoon</option>
+  <option>Evening</option>
+  <option>Weekend</option>
+</select>
+<textarea id="message" rows="5" placeholder="Additional Information"></textarea>
 
-<div class="service-card">
-<h3>✅ Documentation Support</h3>
-<p>Reliable guidance for all vehicle registration services.</p>
-</div>
+<button type="submit">
+ENROLL VIA WHATSAPP
+</button>
 
-</div>
+</form>
 
 </section>
 <section id="gallery" class="gallery">
@@ -449,7 +420,7 @@ Register
 
 <div class="contact-card">
 <h3>📧 Email</h3>
-<p><a href="mailto:ufuomapraise15@gmail.com">ufuomapraise15@gmail.com</a></p>
+<p><a href="mailto:zoomtime@gmail.com">zoomtime@gmail.com</a></p>
 </div>
 
 <div class="contact-card">
@@ -531,6 +502,8 @@ Professional Driving School and Car Registration Centre in Ikorodu, Lagos.
 </p>
 
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>

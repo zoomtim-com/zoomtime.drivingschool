@@ -184,12 +184,10 @@ observer.observe(section);
 // Gallery Hover Effect
 // =====================
 
-document.querySelectorAll(".gallery img").forEach(img=>{
+document.querySelectorAll(".gallery img").forEach(img => {
 
-img.addEventListener("click",()=>{
-
-window.open(img.src,"_blank");
-
-});
+    img.addEventListener("click", () => {
+        window.open(img.src, "_blank");
+    });
 
 });
