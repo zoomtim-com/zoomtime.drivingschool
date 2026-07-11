@@ -102,7 +102,7 @@ I would like to enroll.
 📝 Additional Information:
 ${note}`;
 
-const whatsappURL=`https://wa.me/2349012964452?text=${encodeURIComponent(text)}`;
+const whatsappURL=`https://wa.me/2348072796563?text=${encodeURIComponent(text)}`;
 
 window.open(whatsappURL,"_blank");
 
@@ -130,7 +130,7 @@ if (enrollSection) {
 // Call button
 if (callBtn) {
   callBtn.addEventListener("click", () => {
-    window.location.href = "tel:+2349012964452";
+    window.location.href = "tel:+2349127422122";
   });
 }
 
@@ -142,7 +142,7 @@ if (whatsappBtn) {
     );
 
     window.open(
-      `https://wa.me/2349012964452?text=${message}`,
+      `https://wa.me/2348072796563?text=${message}`,
       "_blank"
     );
   });
