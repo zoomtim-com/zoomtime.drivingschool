@@ -192,8 +192,14 @@ ABOUT
 
 .about{
 padding:140px 8%;
-background:#f8f8f8;
-color:#222;
+background:
+linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+url("Assets/about-bg.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+color:#fff;
 }
 
 .section-title{
@@ -247,6 +253,17 @@ font-size:26px;
 line-height:1.8;
 color:#666;
 }
+
+.about-content{
+max-width:800px;
+margin:auto;
+}
+
+.about-content p{
+color:#fff;
+line-height:1.9;
+font-size:18px;
+  }
 
 /* =====================
 COURSES
