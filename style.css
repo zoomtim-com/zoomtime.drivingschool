@@ -270,8 +270,14 @@ COURSES
 ===================== */
 
 .courses{
-padding:140px 8%;
-background:#111;
+    padding:140px 8%;
+    background:
+        linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),
+        url("Assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .course-grid{
@@ -346,12 +352,18 @@ PRICING
 ====================*/
 
 .pricing{
-
-padding:150px 8%;
-
-background:#111;
-
+    padding:140px 8%;
+    background:
+        linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),
+        url("Assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+.pricing{
+    padding:150px 8%;
+      }
 
 .pricing-grid{
 
@@ -782,8 +794,14 @@ SERVICES
 ===================== */
 
 .services{
-padding:140px 8%;
-background:#111;
+    padding:140px 8%;
+    background:
+        linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),
+        url("Assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .service-grid{
