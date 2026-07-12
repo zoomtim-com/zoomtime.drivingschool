@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zoomtim-com.github.io/zoomtime.drivingschool/sitemap.xml
